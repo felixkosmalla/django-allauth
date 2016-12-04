@@ -366,6 +366,10 @@ GITLAB_URL:
     Override endpoint to request an authorization and access token. For your
     private GitLab server you use: ``https://your.gitlab.server.tld``
 
+    SOCIALACCOUNT_PROVIDERS = { 'gitlab':
+                                { 'GITLAB_URL': 'https://your.gitlab.server.tld' }
+                              }
+
 
 Google
 ------
